@@ -1,0 +1,16 @@
+C:\Users\DoubleLight\Desktop\CUEeditor\CUEeditor\bin\Debug\CUEeditor.exe.config
+C:\Users\DoubleLight\Desktop\CUEeditor\CUEeditor\bin\Debug\CUEeditor.exe
+C:\Users\DoubleLight\Desktop\CUEeditor\CUEeditor\bin\Debug\CUEeditor.pdb
+C:\Users\DoubleLight\Desktop\CUEeditor\CUEeditor\obj\Debug\CUEeditor.csprojResolveAssemblyReference.cache
+C:\Users\DoubleLight\Desktop\CUEeditor\CUEeditor\obj\Debug\MainWindow.baml
+C:\Users\DoubleLight\Desktop\CUEeditor\CUEeditor\obj\Debug\MainWindow.g.cs
+C:\Users\DoubleLight\Desktop\CUEeditor\CUEeditor\obj\Debug\App.g.cs
+C:\Users\DoubleLight\Desktop\CUEeditor\CUEeditor\obj\Debug\CUEeditor_MarkupCompile.cache
+C:\Users\DoubleLight\Desktop\CUEeditor\CUEeditor\obj\Debug\CUEeditor.g.resources
+C:\Users\DoubleLight\Desktop\CUEeditor\CUEeditor\obj\Debug\CUEeditor.Properties.Resources.resources
+C:\Users\DoubleLight\Desktop\CUEeditor\CUEeditor\obj\Debug\CUEeditor.csproj.GenerateResource.Cache
+C:\Users\DoubleLight\Desktop\CUEeditor\CUEeditor\obj\Debug\CUEeditor.exe
+C:\Users\DoubleLight\Desktop\CUEeditor\CUEeditor\obj\Debug\CUEeditor.pdb
+C:\Users\DoubleLight\Desktop\Tool\CUEeditor\CUEeditor\bin\Debug\CUEeditor.exe.config
+C:\Users\DoubleLight\Desktop\Tool\CUEeditor\CUEeditor\obj\Debug\CUEeditor.exe
+C:\Users\DoubleLight\Desktop\Tool\CUEeditor\CUEeditor\obj\Debug\CUEeditor.pdb

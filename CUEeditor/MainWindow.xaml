@@ -1,0 +1,51 @@
+﻿<Window x:Class="CUEeditor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" FontSize="16" AllowDrop="True" Drop="Window_Drop">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Album Data"/>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="4*"/>
+                <ColumnDefinition Width="6*"/>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+            <TextBox Grid.Column="1" x:Name="tbAlbumTitle"/>
+            <TextBox Grid.Column="0" x:Name="tbAlbumArtist"/>
+            <Button Grid.Column="2" Content="Set All Artist" Click="SetAllArtist_Click"/>
+            <Button Grid.Column="3" Content="Set Inputer" Click="SetInputer_Click"/>
+        </Grid>
+        <Grid Grid.Row="2" Margin="0, 4, 0, 0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="4*"/>
+                <ColumnDefinition Width="6*"/>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="Tracks Data"/>
+            <TextBox Grid.Column="2" TextAlignment="Center" Text="." x:Name="tbNumberClearer"/>
+            <Button Grid.Column="3" Content="Clear Number" Click="ClearNum_Click"/>
+        </Grid>
+        <ScrollViewer VerticalScrollBarVisibility="Auto" Grid.Row="3">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel x:Name="stackTitle" Grid.Column="1"/>
+                <StackPanel x:Name="stackArtist" Grid.Column="0"/>
+                <TextBox x:Name="tbTitleInputer" Grid.Column="2" AcceptsReturn="True" FontSize="17.5"/>
+            </Grid>
+        </ScrollViewer>
+        <Button Grid.Row="4" Content="Edit" Click="Edit_Click"/>
+    </Grid>
+</Window>
